@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: posts
+#
+#  id         :bigint           not null, primary key
+#  author     :string
+#  content    :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  author: MyString
+  content: MyString
+
+two:
+  author: MyString
+  content: MyString
